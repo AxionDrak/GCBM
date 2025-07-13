@@ -28,20 +28,45 @@
         /// </summary>
         private void InitializeComponent()
         {
+            statusStrip1 = new StatusStrip();
+            menuStrip1 = new MenuStrip();
             SuspendLayout();
+            // 
+            // statusStrip1
+            // 
+            statusStrip1.Location = new Point(0, 533);
+            statusStrip1.Name = "statusStrip1";
+            statusStrip1.Size = new Size(1171, 22);
+            statusStrip1.TabIndex = 0;
+            statusStrip1.Text = "statusStrip1";
+            // 
+            // menuStrip1
+            // 
+            menuStrip1.Location = new Point(0, 0);
+            menuStrip1.Name = "menuStrip1";
+            menuStrip1.Size = new Size(1171, 24);
+            menuStrip1.TabIndex = 1;
+            menuStrip1.Text = "menuStrip1";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1171, 594);
+            ClientSize = new Size(1171, 555);
+            Controls.Add(statusStrip1);
+            Controls.Add(menuStrip1);
+            MainMenuStrip = menuStrip1;
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "GameCube Backup Manager";
             WindowState = FormWindowState.Maximized;
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private StatusStrip statusStrip1;
+        private MenuStrip menuStrip1;
     }
 }
