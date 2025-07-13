@@ -14,7 +14,9 @@ GameCube Backup Manager - a software to convert ISO files to Nintendont format.
 
 **Download:**
 
-All Releases: https://github.com/AxionDrak/GameCube-Backup-Manager/releases
+All Releases: https://github.com/AxionDrak/GCBM/releases
+
+Old version (archived - 100% functional): https://github.com/AxionDrak/GameCube-Backup-Manager/releases
 
 **Features:**
 - Individual or batch file transfer *(v2.5.0.0 or higher)*
